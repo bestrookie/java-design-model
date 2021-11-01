@@ -8,9 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="factory_simple" />
+        <module name="factory_abstract" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="abstract_factory" target="1.5" />
+      <module name="factory_abstract" target="1.5" />
       <module name="factory_simple" target="1.5" />
     </bytecodeTargetLevel>
   </component>
