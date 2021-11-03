@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/factory_builders/factory_builders.iml" filepath="$PROJECT_DIR$/factory_builders/factory_builders.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_prototype/factory_prototype.iml" filepath="$PROJECT_DIR$/factory_prototype/factory_prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_simple/factory_simple.iml" filepath="$PROJECT_DIR$/factory_simple/factory_simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factory_singleton/factory_singleton.iml" filepath="$PROJECT_DIR$/factory_singleton/factory_singleton.iml" />
     </modules>
   </component>
 </project>

@@ -7,9 +7,25 @@ import com.bestrookie.design.QuestionBankController;
  * @date 2021/11/2 11:45 上午
  */
 public class Test {
-    public static void main(String[] args) throws CloneNotSupportedException {
-        InitQuestionBank initQuestionBank = new InitQuestionBank();
-        System.out.println(initQuestionBank.createPaper("rookie","10086"));
-        System.out.println(initQuestionBank.createPaper("best","10010"));
+    private static void test(Integer sum, int countA) {
+
+        sum += 1;
+        countA++;
+        int countB = 0;
+
+
+        if (sum < 10) {
+            test(sum, countA);
+            countB++;
+        }
+        System.out.println("A =  " + countA);
+        System.out.println("sum=  " + sum);
+        System.out.println("B=  " + countB + "\n");
+
+    }
+
+
+    public static void main(String[] args) {
+        test(1, 1);
     }
 }
