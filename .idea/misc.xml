@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/factory_builders/pom.xml" />
         <option value="$PROJECT_DIR$/factory_prototype/pom.xml" />
         <option value="$PROJECT_DIR$/factory_singleton/pom.xml" />
+        <option value="$PROJECT_DIR$/factory_adapter/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
