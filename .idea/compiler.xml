@@ -7,10 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="factory_builders" />
+        <module name="factory_bridge" />
         <module name="factory_simple" />
         <module name="factory_adapter" />
         <module name="factory_singleton" />
-        <module name="factory_builders" />
         <module name="factory_prototype" />
         <module name="factory_abstract" />
       </profile>
@@ -19,6 +20,7 @@
       <module name="abstract_factory" target="1.5" />
       <module name="factory_abstract" target="1.5" />
       <module name="factory_adapter" target="1.5" />
+      <module name="factory_bridge" target="1.5" />
       <module name="factory_builders" target="1.5" />
       <module name="factory_prototype" target="1.5" />
       <module name="factory_simple" target="1.5" />
