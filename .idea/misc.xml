@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/factory_adapter/pom.xml" />
         <option value="$PROJECT_DIR$/factory_bridge/pom.xml" />
         <option value="$PROJECT_DIR$/factory_group/pom.xml" />
+        <option value="$PROJECT_DIR$/factory_decorator/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
