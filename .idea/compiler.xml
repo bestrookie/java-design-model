@@ -13,6 +13,7 @@
         <module name="factory_simple" />
         <module name="factory_adapter" />
         <module name="factory_singleton" />
+        <module name="factory_appearance" />
         <module name="factory_prototype" />
         <module name="factory_decorator" />
         <module name="factory_abstract" />
@@ -22,6 +23,7 @@
       <module name="abstract_factory" target="1.5" />
       <module name="factory_abstract" target="1.5" />
       <module name="factory_adapter" target="1.5" />
+      <module name="factory_appearance" target="1.8" />
       <module name="factory_bridge" target="1.5" />
       <module name="factory_builders" target="1.5" />
       <module name="factory_decorator" target="1.5" />
@@ -30,5 +32,10 @@
       <module name="factory_simple" target="1.5" />
       <module name="factory_singleton" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="factory_appearance" options="-parameters" />
+    </option>
   </component>
 </project>
