@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/factory_bridge/factory_bridge.iml" filepath="$PROJECT_DIR$/factory_bridge/factory_bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_builders/factory_builders.iml" filepath="$PROJECT_DIR$/factory_builders/factory_builders.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_decorator/factory_decorator.iml" filepath="$PROJECT_DIR$/factory_decorator/factory_decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factory_flyweight/factory_flyweight.iml" filepath="$PROJECT_DIR$/factory_flyweight/factory_flyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_group/factory_group.iml" filepath="$PROJECT_DIR$/factory_group/factory_group.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_prototype/factory_prototype.iml" filepath="$PROJECT_DIR$/factory_prototype/factory_prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_simple/factory_simple.iml" filepath="$PROJECT_DIR$/factory_simple/factory_simple.iml" />

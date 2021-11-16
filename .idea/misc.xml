@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/factory_group/pom.xml" />
         <option value="$PROJECT_DIR$/factory_decorator/pom.xml" />
         <option value="$PROJECT_DIR$/factory_appearance/pom.xml" />
+        <option value="$PROJECT_DIR$/factory_flyweight/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
