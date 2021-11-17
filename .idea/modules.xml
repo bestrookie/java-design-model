@@ -10,7 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/factory_decorator/factory_decorator.iml" filepath="$PROJECT_DIR$/factory_decorator/factory_decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_flyweight/factory_flyweight.iml" filepath="$PROJECT_DIR$/factory_flyweight/factory_flyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_group/factory_group.iml" filepath="$PROJECT_DIR$/factory_group/factory_group.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factory_proxy/factory_poxy.iml" filepath="$PROJECT_DIR$/factory_proxy/factory_poxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_prototype/factory_prototype.iml" filepath="$PROJECT_DIR$/factory_prototype/factory_prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factory_poxy/factory_proxy.iml" filepath="$PROJECT_DIR$/factory_poxy/factory_proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_simple/factory_simple.iml" filepath="$PROJECT_DIR$/factory_simple/factory_simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_singleton/factory_singleton.iml" filepath="$PROJECT_DIR$/factory_singleton/factory_singleton.iml" />
     </modules>

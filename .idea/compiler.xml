@@ -7,17 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="factory_builders" />
         <module name="factory_bridge" />
-        <module name="factory_group" />
-        <module name="factory_simple" />
+        <module name="factory_proxy" />
         <module name="factory_adapter" />
         <module name="factory_singleton" />
-        <module name="factory_appearance" />
         <module name="factory_prototype" />
         <module name="factory_decorator" />
-        <module name="factory_abstract" />
         <module name="factory_flyweight" />
+        <module name="factory_builders" />
+        <module name="factory_group" />
+        <module name="factory_simple" />
+        <module name="factory_appearance" />
+        <module name="factory_abstract" />
+        <module name="factory_poxy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,7 +32,9 @@
       <module name="factory_decorator" target="1.5" />
       <module name="factory_flyweight" target="8" />
       <module name="factory_group" target="6" />
+      <module name="factory_poxy" target="8" />
       <module name="factory_prototype" target="1.5" />
+      <module name="factory_proxy" target="1.5" />
       <module name="factory_simple" target="1.5" />
       <module name="factory_singleton" target="1.5" />
     </bytecodeTargetLevel>
