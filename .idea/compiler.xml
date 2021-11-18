@@ -18,12 +18,14 @@
         <module name="factory_group" />
         <module name="factory_simple" />
         <module name="factory_appearance" />
+        <module name="factory-responsibility" />
         <module name="factory_abstract" />
         <module name="factory_poxy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="abstract_factory" target="1.5" />
+      <module name="factory-responsibility" target="8" />
       <module name="factory_abstract" target="1.5" />
       <module name="factory_adapter" target="1.5" />
       <module name="factory_appearance" target="1.8" />
