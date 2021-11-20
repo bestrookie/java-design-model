@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/factory_poxy/pom.xml" />
         <option value="$PROJECT_DIR$/factory_proxy/pom.xml" />
         <option value="$PROJECT_DIR$/factory-responsibility/pom.xml" />
+        <option value="$PROJECT_DIR$/factory_order/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
