@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/factory_decorator/factory_decorator.iml" filepath="$PROJECT_DIR$/factory_decorator/factory_decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_flyweight/factory_flyweight.iml" filepath="$PROJECT_DIR$/factory_flyweight/factory_flyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_group/factory_group.iml" filepath="$PROJECT_DIR$/factory_group/factory_group.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factory_iterator/factory_iterator.iml" filepath="$PROJECT_DIR$/factory_iterator/factory_iterator.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_order/factory_order.iml" filepath="$PROJECT_DIR$/factory_order/factory_order.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_proxy/factory_poxy.iml" filepath="$PROJECT_DIR$/factory_proxy/factory_poxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_prototype/factory_prototype.iml" filepath="$PROJECT_DIR$/factory_prototype/factory_prototype.iml" />
