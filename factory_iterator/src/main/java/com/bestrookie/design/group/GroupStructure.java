@@ -66,10 +66,12 @@ public class GroupStructure implements Collection<Employee,Link> {
             public Employee next() {
                 List<Link> links = linkMap.get(toId);
                 int cursorIdx = getCursorIdx(toId);
+                //如果没有字节点需要遍历返回上一节点
                 if (links == null){
                     cursorIdx = getCursorIdx(fromId);
                     links = linkMap.get(fromId);
                 }
+                //如果此节点编译完 返回到上一节点
                 while (cursorIdx > links.size() - 1){
                     fromId = invertedMap.get(fromId);
                     cursorIdx = getCursorIdx(fromId);
@@ -82,6 +84,7 @@ public class GroupStructure implements Collection<Employee,Link> {
 
                 return employeeMap.get(link.getToId());
             }
+            //获取节点的遍历进度
             public int getCursorIdx(String key){
                 int idx = 0;
                 if (keyMap.containsKey(key)){

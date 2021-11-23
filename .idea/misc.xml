@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/factory-responsibility/pom.xml" />
         <option value="$PROJECT_DIR$/factory_order/pom.xml" />
         <option value="$PROJECT_DIR$/factory_iterator/pom.xml" />
+        <option value="$PROJECT_DIR$/factory_mediation/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
