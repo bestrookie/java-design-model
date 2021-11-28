@@ -1,6 +1,4 @@
 package com.bestrookie.design.mediator;
-import javax.xml.crypto.Data;
-import java.io.File;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.sql.*;
@@ -8,6 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Date;
 
 /**
  * @author bestrookie
@@ -95,23 +94,23 @@ public class DefaultSqlSession implements SqlSession{
         try {
             ResultSetMetaData metaData = resultSet.getMetaData();
             int columnCount = metaData.getColumnCount();
-            while (resultSet.next()){
-                T obj = (T)clazz.newInstance();
-                for (int i = 1; i < columnCount; i++) {
+            // 每次遍历行值
+            while (resultSet.next()) {
+                T obj = (T) clazz.newInstance();
+                for (int i = 1; i <= columnCount; i++) {
                     Object value = resultSet.getObject(i);
                     String columnName = metaData.getColumnName(i);
-                    String setMethod = "set"+columnName.substring(0,1).toUpperCase()+columnName.substring(1);
+                    String setMethod = "set" + columnName.substring(0, 1).toUpperCase() + columnName.substring(1);
                     Method method;
-                    if (value instanceof Timestamp){
-                        method = clazz.getMethod(setMethod, Data.class);
-                    }else {
-                        method = clazz.getMethod(setMethod,value.getClass());
+                    if (value instanceof java.util.Date) {
+                        method = clazz.getMethod(setMethod, java.util.Date.class);
+                    } else {
+                        method = clazz.getMethod(setMethod, value.getClass());
                     }
-                    method.invoke(obj,value);
+                    method.invoke(obj, value);
                 }
                 list.add(obj);
             }
-
         } catch (Exception e) {
             e.printStackTrace();
         }
