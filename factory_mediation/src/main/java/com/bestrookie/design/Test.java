@@ -12,7 +12,8 @@ import java.io.Reader;
 
 /**
  * @author bestrookie
- * @date 2021/11/26 3:16 下午
+ * @version 1.0
+ * @date 2021/11/28 21:51
  */
 public class Test {
     public static void main(String[] args) {
@@ -22,9 +23,13 @@ public class Test {
             reader = Resources.getResourceAsReader(resource);
             SqlSessionFactory sqlMapper = new SqlSessionFactoryBuilder().build(reader);
             SqlSession session = sqlMapper.openSession();
-            User user = session.selectOne("com.bestrookie.design.dao.IUserDao.queryUserInfo", 1);
-            System.out.println(JSON.toJSONString(user));
-            session.close();
+            try {
+                User user = session.selectOne("com.bestrookie.design.dao.IUserDao.queryUserInfoById", 1);
+                System.out.println("测试结果："+ JSON.toJSONString(user));
+            }finally {
+                session.close();
+                reader.close();
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }

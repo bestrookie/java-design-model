@@ -2,7 +2,8 @@ package com.bestrookie.design.mediator;
 
 /**
  * @author bestrookie
- * @date 2021/11/25 11:25 上午
+ * @version 1.0
+ * @date 2021/11/28 11:03
  */
 public interface SqlSessionFactory {
     SqlSession openSession();

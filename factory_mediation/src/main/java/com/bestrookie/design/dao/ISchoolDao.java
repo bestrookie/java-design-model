@@ -4,7 +4,8 @@ import com.bestrookie.design.pojo.School;
 
 /**
  * @author bestrookie
- * @date 2021/11/26 11:44 上午
+ * @version 1.0
+ * @date 2021/11/28 11:28
  */
 public interface ISchoolDao {
     School querySchoolInfoById(Long id);

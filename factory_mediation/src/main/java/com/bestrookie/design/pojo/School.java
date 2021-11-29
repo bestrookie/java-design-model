@@ -1,15 +1,22 @@
 package com.bestrookie.design.pojo;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.util.Date;
 
 /**
  * @author bestrookie
- * @date 2021/11/26 11:22 上午
+ * @version 1.0
+ * @date 2021/11/28 11:26
  */
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class School {
     private Long id;
     private String name;
-    private String address;
     private Date createTime;
     private Date updateTime;
 }
