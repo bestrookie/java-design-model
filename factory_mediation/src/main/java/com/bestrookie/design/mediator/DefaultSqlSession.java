@@ -45,6 +45,11 @@ public class DefaultSqlSession implements SqlSession{
         return null;
     }
 
+    @Override
+    public void close() {
+
+    }
+
     private <T>List<T> resultSet2Obj(ResultSet resultSet,Class<?> clazz){
         List<T> list = new ArrayList<>();
         try {
