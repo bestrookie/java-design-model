@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/factory_poxy/factory_proxy.iml" filepath="$PROJECT_DIR$/factory_poxy/factory_proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_simple/factory_simple.iml" filepath="$PROJECT_DIR$/factory_simple/factory_simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_singleton/factory_singleton.iml" filepath="$PROJECT_DIR$/factory_singleton/factory_singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factory_state/factory_state.iml" filepath="$PROJECT_DIR$/factory_state/factory_state.iml" />
     </modules>
   </component>
 </project>

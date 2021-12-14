@@ -2,8 +2,6 @@ package com.bestrookie.design.event;
 
 import com.bestrookie.design.LotteryResult;
 import com.bestrookie.design.event.listener.EventListener;
-import com.oracle.javafx.jmx.json.JSONReader;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

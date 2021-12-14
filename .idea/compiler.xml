@@ -23,6 +23,7 @@
         <module name="factory_simple" />
         <module name="factory_iterator" />
         <module name="factory_appearance" />
+        <module name="factory_state" />
         <module name="factory-responsibility" />
         <module name="factory_abstract" />
         <module name="factory_poxy" />
@@ -49,6 +50,7 @@
       <module name="factory_proxy" target="1.5" />
       <module name="factory_simple" target="1.5" />
       <module name="factory_singleton" target="1.5" />
+      <module name="factory_state" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
