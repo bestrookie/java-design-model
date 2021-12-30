@@ -10,6 +10,7 @@
         <module name="factory_bridge" />
         <module name="factory_proxy" />
         <module name="factory_memo" />
+        <module name="factory_strategy" />
         <module name="factory_adapter" />
         <module name="factory_singleton" />
         <module name="factory_prototype" />
@@ -51,6 +52,7 @@
       <module name="factory_simple" target="1.5" />
       <module name="factory_singleton" target="1.5" />
       <module name="factory_state" target="8" />
+      <module name="factory_strategy" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
