@@ -19,6 +19,7 @@
         <module name="factory_flyweight" />
         <module name="factory_builders" />
         <module name="factory_group" />
+        <module name="factory_template" />
         <module name="factory_mediation" />
         <module name="factory_order" />
         <module name="factory_simple" />
@@ -53,6 +54,7 @@
       <module name="factory_singleton" target="1.5" />
       <module name="factory_state" target="8" />
       <module name="factory_strategy" target="8" />
+      <module name="factory_template" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
