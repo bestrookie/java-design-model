@@ -25,6 +25,7 @@
         <option value="$PROJECT_DIR$/factory_state/pom.xml" />
         <option value="$PROJECT_DIR$/factory_strategy/pom.xml" />
         <option value="$PROJECT_DIR$/factory_template/pom.xml" />
+        <option value="$PROJECT_DIR$/factory_visitor/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

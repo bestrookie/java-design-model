@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="factory_visitor" />
         <module name="factory_bridge" />
         <module name="factory_proxy" />
         <module name="factory_memo" />
@@ -55,6 +56,7 @@
       <module name="factory_state" target="8" />
       <module name="factory_strategy" target="8" />
       <module name="factory_template" target="8" />
+      <module name="factory_visitor" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
